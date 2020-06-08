@@ -41,3 +41,18 @@ public class FindEleandElms {
 		
 	
 	}}
+
+
+
+/*
+Find Element	
+Returns the first most web element if there are multiple web elements found with the same locator	
+Throws exception NoSuchElementException if there are no elements matching the locator strategy	
+It will only find one web element	
+Not Applicable	
+
+Find Elements
+1. Returns a list of web elements
+2. Returns an empty list if there are no web elements matching the locator strategy
+3. It will find a collection of elements whose match the locator strategy.
+4. Each Web element is indexed with a number starting from 0 just like an array*/
