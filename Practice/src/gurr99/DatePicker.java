@@ -25,7 +25,7 @@ public class DatePicker
 		
 		driver.get("https://www.spicejet.com/");
 		WebElement date = driver.findElement(By.id("ctl00_mainContent_txt_Fromdate"));
-		String dateVal = "08/08/2020";
+		String dateVal = "10-08-2020";
 		datePicker(driver, date, dateVal);
 		
 
@@ -33,7 +33,7 @@ public class DatePicker
 	public static void datePicker(WebDriver driver, WebElement ele,String dateVal)
 	{
 		JavascriptExecutor js = ((JavascriptExecutor)driver);
-		js.executeScript("arguements[0].setAttribute('value','"+dateVal+"');",ele);
+		js.executeScript("arguments[0].setAttribute('value','"+dateVal+"');",ele);
 		
 	}
 
