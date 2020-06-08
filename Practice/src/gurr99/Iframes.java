@@ -42,8 +42,8 @@ public class Iframes
 			//Commented the code for finding the index of the element
 		    driver.switchTo().frame(0); //Switching to the frame
 			System.out.println("********We are switched to the iframe*******");
-			driver.findElement(By.xpath("html/body/a/img")).click();
-			
+			//driver.findElement(By.xpath("html/body/a/img")).click();
+			driver.findElement(By.linkText("live-selenium-project")).click();
 			//Clicking the element in line with Advertisement
 		    System.out.println("*********We are done***************");
 		
