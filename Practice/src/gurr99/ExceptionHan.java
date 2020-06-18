@@ -181,6 +181,10 @@ public class ExceptionHan {
 		//initElements() takes latest address. It initializes during run time
 		//when we try to perform any action on an element. 
 		//This process is also known as Lazy Initialization.
+		
+		
+//10.WebDriverException:1. Webdriver is performing the action immediately after ‘closing’ the browser.
+		// 2. When pageload timeout is completed yet page is not loaded fully
 
 
 		}
