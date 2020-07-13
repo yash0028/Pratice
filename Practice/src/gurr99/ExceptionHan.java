@@ -16,7 +16,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ExceptionHan {
-
+/*
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
 
@@ -194,3 +194,4 @@ public class ExceptionHan {
 		
 	
 }
+*/
