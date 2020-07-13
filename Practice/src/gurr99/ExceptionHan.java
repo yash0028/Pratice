@@ -119,6 +119,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 		//driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS) ;
 
 		//driver.get(“https://www.softwaretestinghelp.com” );
+		//However, if the components don’t load even after the wait, 
+		 //the exception org.openqa.selenium.TimeoutException will be thrown.
+		 
+		 
 
 		//In the above program, an implicit wait of 10 seconds is added. 
 		//If the page www.softwaretestinghelp.com doesn’t load in 10 seconds, 
