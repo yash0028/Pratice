@@ -9,9 +9,19 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SWebTable {
-	
-
-
+	/*
+	 * Anything that is present on the web page is a WebElement such as text box,
+	 * button, etc. WebElement represents an HTML element.
+	 */
+	/*
+	 * Web tables are basically tabular structures in web pages arranged in a row
+	 * and column format.
+	 * 
+	 * Web Table is an HTML element which is displayed with the help of <table> tag
+	 * in conjunction with the <tr> and <td> tags. <tr> tag represents a row whereas
+	 * <td> represents a column. <th> tag is used to represent the heading row.
+	 * 
+	 */
 		public static void main(String[] args) throws InterruptedException {
 			// TODO Auto-generated method stub
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\User\\Desktop\\Installation\\chromedriver.exe");
