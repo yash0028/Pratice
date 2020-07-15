@@ -16,12 +16,18 @@ public class DynamicWebTable {
 		driver = new ChromeDriver();
 
 		driver.get("http://techcanvass.com/Examples/webtable.html");
+		//Step 1: First get the entire html table and store this in a variable ‘webtable’ of type web element.
+
 
 		WebElement webtable=driver.findElement(By.xpath("html/body"));
+		//Get all the rows with tag name ‘tr’ and store all the elements in a list of web elements.
+		//Now all the elements with tag ‘tr’ are stored in ‘rows’ list.
 		
 		List<WebElement> rows=webtable.findElements(By.tagName("tr"));
 
 		System.out.println("Number of Rows including headings:"+ rows.size());
+		
+		
 
 		//Finding and printing number of columns
 		List<WebElement> columns = rows.get(0).findElements(By.tagName("th"));
