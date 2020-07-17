@@ -20,7 +20,7 @@ public class DynamicWebTable1
 
 		driver.get("http://demo.guru99.com/test/web-table-element.php");
 
-		WebElement webtable=driver.findElement(By.xpath("html/body/table"));
+		WebElement webtable=driver.findElement(By.xpath("html/body"));
 		//Get all the rows with tag name ‘tr’ and store all the elements in a list of web elements.
 		//Now all the elements with tag ‘tr’ are stored in ‘rows’ list.
 		
