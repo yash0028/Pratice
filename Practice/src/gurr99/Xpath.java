@@ -33,6 +33,7 @@ public class Xpath {
 		//Xpath=//*[@type='submit' or @name='btnReset']
 		
 		/*Xpath=//*[contains(text(),'here')]  --> used for links
+		or //a[@text()='here']
 		Xpath=//*[contains(@href,'guru99.com')]		
 		*/
 		WebElement login = driver.findElement(By.xpath("//*[@name='btnLogin' or @value='LOGIN']"));
