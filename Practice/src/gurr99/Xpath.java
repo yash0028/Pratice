@@ -30,7 +30,7 @@ public class Xpath {
 		passwrd.sendKeys("password1");
 		
 		//Xpath=//input[@type='submit' and @name='btnLogin']
-		//Xpath=//*[@type='submit' or @name='btnReset']
+		//Xpath=//*[@type()='submit' or @name='btnReset']
 		
 		/*Xpath=//*[contains(text(),'here')]  --> used for links
 		or //a[@text()='here']
