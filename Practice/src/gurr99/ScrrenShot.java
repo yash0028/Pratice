@@ -13,7 +13,7 @@ public class ScrrenShot {
 
 	public static void main(String[] args) throws IOException {
 
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\gkuma222\\Documents\\ppp\\Practice\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","G:\\Folder Structure\\Installation Stuff\\Drivers\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
 		
